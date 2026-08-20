@@ -1,0 +1,13 @@
+{
+  "name": "MCP Confluence (miniapp-bff proxy)",
+  "install": "bash scripts/install-confluence-mcp.sh",
+  "repositoryDependencies": [
+    "gitlab.istock.info/istock-link/miniapp-bff"
+  ],
+  "mcpServerAllowlist": [
+    {
+      "name": "Confluence via miniapp-bff",
+      "command": "uvx"
+    }
+  ]
+}

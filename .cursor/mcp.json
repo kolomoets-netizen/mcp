@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "confluence": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-atlassian"],
+      "env": {
+        "CONFLUENCE_URL": "${env:CONFLUENCE_BFF_URL}",
+        "CONFLUENCE_PERSONAL_TOKEN": "${env:CONFLUENCE_API_TOKEN}",
+        "CONFLUENCE_SSL_VERIFY": "${env:CONFLUENCE_SSL_VERIFY}",
+        "CONFLUENCE_SPACES_FILTER": "${env:CONFLUENCE_SPACES_FILTER}"
+      }
+    }
+  }
+}
