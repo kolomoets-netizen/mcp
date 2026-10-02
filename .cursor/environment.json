@@ -1,0 +1,9 @@
+{
+  "name": "iStock BA skills",
+  "mcpServerAllowlist": [
+    {
+      "name": "qa-assistant",
+      "serverUrl": "https://mcp-qa.istock.link/mcp"
+    }
+  ]
+}
